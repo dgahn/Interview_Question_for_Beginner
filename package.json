@@ -1,0 +1,24 @@
+{
+  "name": "interview",
+  "version": "0.1.0",
+  "description": "이 문서는 한재엽님의 [Interview Quetion for beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)의 내용을 가져와 Gitbook으로 묶었습니다. 제가 필요한 내용만 가져왔기 때문에 좀 더 자세한 내용은 git repository를 확인하시기 바랍니다.",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgahn/Interview_Question_for_Beginner.git"
+  },
+  "keywords": [],
+  "author": "Duckgi Ahn <dgahn@icloud.com> (https://gitlab.com/dgahn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgahn/Interview_Question_for_Beginner/issues"
+  },
+  "homepage": "https://github.com/dgahn/Interview_Question_for_Beginner#readme"
+}
