@@ -2,9 +2,7 @@
 
 * [Singleton](#singleton)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)
-
-</br>
+<br/>
 
 ## Singleton
 
@@ -91,10 +89,8 @@ _cf) `volatile` : 컴파일러가 특정 변수에 대해 옵티마이져가 캐
 
 * http://asfirstalways.tistory.com/335
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-6-design-pattern)
+<br/>
 
-</br>
-
-</br>
+<br/>
 
 _Design pattern.end_

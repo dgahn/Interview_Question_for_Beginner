@@ -17,9 +17,8 @@
     - [ThreadLocal](#threadlocal)
       - [Personal Recommendation](#personal-recommendation)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)
 
-</br>
+<br/>
 
 ## JVM 에 대해서, GC 의 원리
 
@@ -28,9 +27,8 @@
 * [Java Virtual Machine 에 대해서](http://asfirstalways.tistory.com/158)
 * [Garbage Collection 에 대해서](http://asfirstalways.tistory.com/159)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Collection
 
@@ -45,9 +43,8 @@ Java Collection 에는 `List`, `Map`, `Set` 인터페이스를 기준으로 여�
 * Stack 과 Queue  
   `Stack` 객체는 직접 `new` 키워드로 사용할 수 있으며, `Queue` 인터페이스는 JDK 1.5 부터 `LinkedList`에 `new` 키워드를 적용하여 사용할 수 있다. 자세한 부분은 DataStructure 부분의 설명을 참고하면 된다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Annotation
 
@@ -57,17 +54,15 @@ Java Collection 에는 `List`, `Map`, `Set` 인터페이스를 기준으로 여�
 
 * http://asfirstalways.tistory.com/309
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Generic
 
 제네릭은 자바에서 안정성을 맡고 있다고 할 수 있다. 다양한 타입의 객체들을 다루는 메서드나 컬렉션 클래스에서 사용하는 것으로, 컴파일 과정에서 타입체크를 해주는 기능이다. 객체의 타입을 컴파일 시에 체크하기 때문에 객체의 타입 안전성을 높이고 형변환의 번거로움을 줄여준다. 자연스럽게 코드도 더 간결해진다. 예를 들면, Collection 에 특정 객체만 추가될 수 있도록, 또는 특정한 클래스의 특징을 갖고 있는 경우에만 추가될 수 있도록 하는 것이 제네릭이다. 이로 인한 장점은 collection 내부에서 들어온 값이 내가 원하는 값인지 별도의 로직처리를 구현할 필요가 없어진다. 또한 api 를 설계하는데 있어서 보다 명확한 의사전달이 가능해진다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## final keyword
 
@@ -88,9 +83,8 @@ Java Collection 에는 `List`, `Map`, `Set` 인터페이스를 기준으로 여�
 * finalize()  
   keyword 도 아니고 code block 도 아닌 메소드이다. `GC`에 의해 호출되는 함수로 절대 호출해서는 안 되는 함수이다. `Object` 클래스에 정의되어 있으며 GC 가 발생하는 시점이 불분명하기 때문에 해당 메소드가 실행된다는 보장이 없다. 또한 `finalize()` 메소드가 오버라이딩 되어 있으면 GC 가 이루어질 때 바로 Garbage Collecting 되지 않는다. GC 가 지연되면서 OOME(Out of Memory Exception)이 발생할 수 있다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Overriding vs Overloading
 
@@ -99,9 +93,8 @@ Java Collection 에는 `List`, `Map`, `Set` 인터페이스를 기준으로 여�
 * 오버로딩(Overloading)
   상위 클래스의 메소드와 이름, return 값은 동일하지만, 매개변수만 다른 메소드를 만드는 것을 의미한다. 다양한 상황에서 메소드가 호출될 수 있도록 한다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Access Modifier
 
@@ -119,9 +112,8 @@ Java Collection 에는 `List`, `Map`, `Set` 인터페이스를 기준으로 여�
 * private  
   정의된 해당 클래스에서만 접근이 가능하도록 접근 범위를 제한한다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Wrapper class
 
@@ -138,9 +130,8 @@ lists.add(1);
 
 우린 `Integer`라는 Wrapper class 로 설정한 collection 에 데이터를 add 할 때 Integer 객체로 감싸서 넣지 않는다. 자바 내부에서 `AutoBoxing`해주기 때문이다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 ## Multi-Thread 환경에서의 개발
 
@@ -150,7 +141,7 @@ lists.add(1);
 
 `필드(field)`란 클래스에 변수를 정의하는 공간을 의미한다. 이곳에 변수를 만들어두면 메소드 끼리 변수를 주고 받는 데 있어서 참조하기 쉬우므로 정말 편리한 공간 중 하나이다. 하지만 객체가 여러 스레드가 접근하는 싱글톤 객체라면 field 에서 상태값을 갖고 있으면 안된다. 모든 변수를 parameter 로 넘겨받고 return 하는 방식으로 코드를 구성해야 한다.
 
-</br>
+<br/>
 
 ### 동기화(Synchronized)
 
@@ -159,7 +150,7 @@ lists.add(1);
 기본적으로는 `Collections`라는 util 클래스에서 제공되는 static 메소드를 통해 이를 해결할 수 있다. `Collections.synchroziedList()`, `Collections.synchroziedSet()`, `Collections.synchroziedMap()` 등이 존재한다.
 JDK 1.7 부터는 `concurrent package`를 통해 `ConcurrentHashMap`이라는 구현체를 제공한다. Collections util 을 사용하는 것보다 `synchronized` 키워드가 적용된 범위가 좁아서 보다 좋은 성능을 낼 수 있는 자료구조이다.
 
-</br>
+<br/>
 
 ### ThreadLocal
 
@@ -174,19 +165,17 @@ _ThreadLocal 을 사용하는 방법은 간단하다._
 3.  ThreadLocal.get() 메서드를 이용해서 현재 스레드의 로컬 변수 값을 읽어온다.
 4.  ThreadLocal.remove() 메서드를 이용해서 현재 스레드의 로컬 변수 값을 삭제한다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
 #### Personal Recommendation
 
 * (도서) [Effective Java 2nd Edition](http://www.yes24.com/24/goods/14283616?scode=032&OzSrank=9)
 * (도서) [스프링 입문을 위한 자바 객체 지향의 원리와 이해](http://www.yes24.com/24/Goods/17350624?Acode=101)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-2-1-java)
 
-</br>
+<br/>
 
-</br>
+<br/>
 
 _Java.end_

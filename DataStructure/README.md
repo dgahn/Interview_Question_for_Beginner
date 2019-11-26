@@ -27,9 +27,7 @@
     * Kruskal algorithm
     * Prim algorithm
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)
-
-</br>
+<br/>
 
 ## Array vs LinkedList
 
@@ -54,11 +52,9 @@
 * Array 를 기반으로한 LinkedList 구현
 * ArrayList 를 기반으로한 LinkedList 구현
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
 ---
 
-</br>
+<br/>
 
 ## Stack and Queue
 
@@ -77,11 +73,9 @@
 * Stack 두 개로 Queue 자료구조 구현하기
 * Stack 으로 괄호 유효성 체크 코드 구현하기
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
 ---
 
-</br>
+<br/>
 
 ## Tree
 
@@ -95,7 +89,7 @@
 * Terminal Node ( = leaf Node, 단말 노드) : 하위에 다른 노드가 연결되어 있지 않은 노드를 의미한다.
 * Internal Node (내부노드, 비단말 노드) : 단말 노드를 제외한 모든 노드로 루트 노드를 포함한다.
 
-</br>
+<br/>
 
 ### Binary Tree (이진 트리)
 
@@ -107,7 +101,7 @@
 
 모든 레벨이 꽉 찬 이진 트리를 가리켜 포화 이진 트리라고 한다. 위에서 아래로, 왼쪽에서 오른쪽으로 순서대로 차곡차곡 채워진 이진 트리를 가리켜 완전 이진 트리라고 한다. 배열로 구성된 `Full Binary Tree`와 `Complete binary tree`는 노드의 개수가 n 개 일 때, i 번째 노드에 대해서 parent(i) = i/2 , left_child(i) = 2i , right_child(i) = 2i + 1 의 index 값을 갖는다.
 
-</br>
+<br/>
 
 ### BST(Binary Search Tree)
 
@@ -127,9 +121,7 @@
 * Binary Search Tree 구현하기
 * 주어진 트리가 Binary 트리인지 확인하는 알고리즘 구현하기
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
-</br>
+<br/>
 
 ## Binary Heap
 
@@ -143,9 +135,7 @@
 
 * Heapify 구현하기
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
-</br>
+<br/>
 
 ## Red Black Tree
 
@@ -170,7 +160,7 @@ Red-Black Tree 는 다음의 성질들을 만족하는 BST 이다.
 
 _RBT 는 BST 의 삽입, 삭제 연산 과정에서 발생할 수 있는 문제점을 해결하기 위해 만들어진 자료구조이다. 이를 어떻게 해결한 것인가?_
 
-</br>
+<br/>
 
 ### 삽입
 
@@ -182,11 +172,9 @@ _RBT 는 BST 의 삽입, 삭제 연산 과정에서 발생할 수 있는 문제�
 
 Java Collection 에서 ArrayList 도 내부적으로 RBT 로 이루어져 있고, HashMap 에서의 `Separate Chaining`에서도 사용된다. 그만큼 효율이 좋고 중요한 자료구조이다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
 ---
 
-</br>
+<br/>
 
 ## HashTable
 
@@ -194,7 +182,7 @@ Java Collection 에서 ArrayList 도 내부적으로 RBT 로 이루어져 있고
 
 그래서 **특별한 알고리즘을 이용하여** 저장할 데이터와 연관된 **고유한 숫자를 만들어 낸 뒤** 이를 인덱스로 사용한다. 특정 데이터가 저장되는 인덱스는 그 데이터만의 고유한 위치이기 때문에, 삽입 연산 시 다른 데이터의 사이에 끼어들거나, 삭제 시 다른 데이터로 채울 필요가 없으므로 연산에서 추가적인 비용이 없도록 만들어진 구조이다.
 
-</br>
+<br/>
 
 ### hash function
 
@@ -213,7 +201,7 @@ Collision 이 많아질 수록 Search 에 필요한 Time Complexity 가 O(1)에�
 
 따라서 hashing 된 인덱스에 이미 다른 값이 들어 있다면 세 데이터를 저장할 다른 위치를 찾은 뒤에야 저장할 수 있는 것이다. 따라서 충돌 해결은 필수이며 그 방법들에 대해 알아보자.
 
-</br>
+<br/>
 
 ### Resolve Conflict
 
@@ -232,7 +220,7 @@ Collision 이 많아질 수록 Search 에 필요한 Time Complexity 가 O(1)에�
 3.  Double hashing probing  
     하나의 해쉬 함수에서 충돌이 발생하면 2 차 해쉬 함수를 이용해 새로운 주소를 할당한다. 위 두 가지 방법에 비해 많은 연산량을 요구하게 된다.
 
-</br>
+<br/>
 
 #### 2. Separate Chaining 방식 (분리 연결법)
 
@@ -258,7 +246,7 @@ Collision 이 많아질 수록 Search 에 필요한 Time Complexity 가 O(1)에�
 
 보조 해시 함수(supplement hash function)의 목적은 `key`의 해시 값을 변형하여 해시 충돌 가능성을 줄이는 것이다. `Separate Chaining` 방식을 사용할 때 함께 사용되며 보조 해시 함수로 Worst Case 에 가까워지는 경우를 줄일 수 있다.
 
-</br>
+<br/>
 
 ### 해시 버킷 동적 확장(Resize)
 
@@ -268,11 +256,9 @@ Collision 이 많아질 수록 Search 에 필요한 Time Complexity 가 O(1)에�
 
 * http://d2.naver.com/helloworld/831311
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)
-
 ---
 
-</br>
+<br/>
 
 ## Graph
 
@@ -313,7 +299,7 @@ Directed Graph 에서는 간선에 방향성이 존재하기 때문에 Degree �
 
 가중치 그래프란 간선에 가중치 정보를 두어서 구성한 그래프를 말한다. 반대의 개념인 비가중치 그래프 즉, 모든 간선의 가중치가 동일한 그래프도 물론 존재한다. 부분 집합과 유사한 개념으로 부분 그래프라는 것이 있다. 부분 그래프는 본래의 그래프의 일부 정점 및 간선으로 이루어진 그래프를 말한다.
 
-</br>
+<br/>
 
 ### 그래프를 구현하는 두 방법
 
@@ -325,7 +311,7 @@ Directed Graph 에서는 간선에 방향성이 존재하기 때문에 Degree �
 
 vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어있는지 확인하는데 오래 걸린다. Space Complexity 는 O(E + V)이다. Sparse graph 를 표현하는데 적당한 방법이다.
 
-</br>
+<br/>
 
 ### 그래프 탐색
 
@@ -344,7 +330,7 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
 _**! BFS 로 구한 경로는 최단 경로이다.**_
 
-</br>
+<br/>
 
 ### Minimum Spanning Tree
 
@@ -372,7 +358,6 @@ Graph 의 각 vertex 에 `set-id`라는 것을 추가적으로 부여한다. 그
 
 => 전체 시간 복잡도 : O(E log V)
 
-</br>
+<br/>
 
 _DataStructure.end_  
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-2-datastructure)

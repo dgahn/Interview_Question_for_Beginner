@@ -8,9 +8,7 @@
 * [MVC 패턴이란 무엇인가?](http://asfirstalways.tistory.com/180)
 * [Git 과 GitHub 에 대해서](#git과-github에-대해서)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)
-
-</br>
+<br/>
 
 ## Object Oriented Programming
 
@@ -44,9 +42,7 @@ OOP 로 코드를 작성하면 이미 작성한 코드에 대한 재사용성이
 * (도서) [객체 지향의 사실과 오해](http://www.yes24.com/24/Goods/18249021)
 * (도서) [객체 지향과 디자인 패턴](http://www.yes24.com/24/Goods/9179120?Acode=101)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
-
-</br>
+<br/>
 
 ## RESTful API
 
@@ -112,9 +108,7 @@ OOP 로 코드를 작성하면 이미 작성한 코드에 대한 재사용성이
 * [바쁜 개발자들을 위한 RESTFul api 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)
 * [REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인 팁 - spoqa](https://spoqa.github.io/2012/02/27/rest-introduction.html)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
-
-</br>
+<br/>
 
 ## TDD
 
@@ -162,9 +156,7 @@ Test-Driven Development(TDD)는 매우 짧은 개발 사이클의 반복에 의�
 
 * [TDD 에 대한 토론 - slipp](https://slipp.net/questions/16)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
-
-</br>
+<br/>
 
 ## 함수형 프로그래밍
 
@@ -195,17 +187,13 @@ _아직 저도 잘 모르는 부분이라서 정말 간단한 내용만 정리�
 * [Reactive Programming](http://sculove.github.io/blog/2016/06/22/Reactive-Programming)
 * [MS 는 ReactiveX 를 왜 만들었을까?](http://huns.me/development/2051)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
-
-</br>
+<br/>
 
 ## MVC 패턴이란 무엇인가?
 
 그림과 함께 설명하는 것이 더 좋다고 판단하여 [포스팅](http://asfirstalways.tistory.com/180)으로 대체한다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
-
-</br>
+<br/>
 
 ## Git 과 GitHub 에 대해서
 
@@ -222,10 +210,8 @@ Git 을 사용하기 위한 각종 전략(strategy)들이 존재한다. 해당 �
 * [오픈소스 프로젝트에 컨트리뷰트 하기](http://guruble.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%ED%84%B0%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%8A%94-%EA%B2%83/)
 * [GitHub Cheetsheet](https://github.com/tiimgreen/github-cheat-sheet)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-1-1-development-common-sense)
+<br/>
 
-</br>
-
-</br>
+<br/>
 
 _Development_common_sense.end_
