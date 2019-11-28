@@ -88,9 +88,3 @@ _cf) `volatile` : 컴파일러가 특정 변수에 대해 옵티마이져가 캐
 #### Reference
 
 * http://asfirstalways.tistory.com/335
-
-<br/>
-
-<br/>
-
-_Design pattern.end_

@@ -160,12 +160,3 @@
 # 🎸 기타
 
 - 이 자리/팀/회사에서 일하여 가장 좋은 점은 그리고 가장 나쁜 점은 무엇인가요?
-
-## 💬 질문 건의
-
-추가하고 싶은 내용이 있다면 언제든지 [ISSUE](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/issues)를 올려주세요!
-
-## 📝 References
-
-- [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
-- [https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)

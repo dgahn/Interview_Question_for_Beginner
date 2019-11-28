@@ -357,7 +357,3 @@ Graph 의 각 vertex 에 `set-id`라는 것을 추가적으로 부여한다. 그
 #### Time Complexity
 
 => 전체 시간 복잡도 : O(E log V)
-
-<br/>
-
-_DataStructure.end_  

@@ -5,8 +5,6 @@
 * [Sorting Algorithm](#sorting-algorithm)
 * [Prime Number Algorithm](#prime-number-algorithm)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)
-
 ## 코딩 테스트를 위한 Tip
 
 > Translate this article: [How-to-rock-an-algorithms-interview](http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/)
@@ -53,9 +51,7 @@
 
 특정 접근법이 효과적이지 않다고 느끼면 다른 접근 방식을 시도 할 때가 있습니다. 물론 너무 쉽게 포기해서는 안됩니다. 그러나 열매를 맺지 않고도 유망한 생각이 들지 않는 접근법에 몇 분을 소비했다면, 백업하고 다른 것을 시도해보십시오. 저는 덜 접근한 지원자보다 한참 더 많이 나아간 지원자를 많이 보았습니다. 즉, (모두 평등 한) 다른 사람들이 좀 더 기민한 접근 방식을 포기해야 한다는 것을 의미합니다.
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#algorithm)
-
-</br>
+<br/>
 
 ## 문제 해결을 위한 전략적 접근
 
@@ -87,7 +83,7 @@
 * 순서를 강제해본다.
 * 뒤에서부터 생각해본다.
 
-</br>
+<br/>
 
 ### 해결 방법 분류
 
@@ -159,9 +155,7 @@ greedy 는 각 단계마다 지금 당장 가장 좋은 방법만을 선택하�
 
 [프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략](http://www.yes24.com/24/Goods/8006522?Acode=101)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#algorithm)
-
-</br>
+<br/>
 
 ## Sorting Algorithm
 
@@ -181,7 +175,7 @@ n 개의 원소를 가진 배열을 정렬할 때, In-place sort 로 인접한 �
 
 #### [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/BubbleSort.java)
 
-</br>
+<br/>
 
 ### Selection Sort
 
@@ -193,7 +187,7 @@ n 개의 원소를 가진 배열을 정렬할 때, 계속해서 바꾸는 것이
 
 #### [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/SelectionSort.java)
 
-</br>
+<br/>
 
 ### Insertion Sort
 
@@ -205,7 +199,7 @@ n 개의 원소를 가진 배열을 정렬할 때, i 번째를 정렬할 순서�
 
 #### [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/InsertionSort.java)
 
-</br>
+<br/>
 
 ### Merge Sort
 
@@ -219,7 +213,7 @@ n 개의 원소를 가진 배열을 정렬할 때, i 번째를 정렬할 순서�
 | :--------------: | :-------------: |
 |       O(n)       |    O(nlogn)     |
 
-</br>
+<br/>
 
 ### Heap Sort
 
@@ -231,7 +225,7 @@ n 개의 원소를 가진 배열을 정렬할 때, i 번째를 정렬할 순서�
 | :--------------: | :-------------: |
 |       O(1)       |    O(nlogn)     |
 
-</br>
+<br/>
 
 ### Quick Sort
 
@@ -257,7 +251,7 @@ Sorting 기법 중 가장 빠르다고 해서 quick 이라는 이름이 붙여�
 
 #### [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/QuickSort.java)
 
-</br>
+<br/>
 
 ### non-Comparisons Sorting Algorithm
 
@@ -271,7 +265,7 @@ Count Sort 는 말 그대로 몇 개인지 개수를 세어 정렬하는 방식�
 | :--------------: | :-------------: |
 |       O(m)       |      O(n)       |
 
-</br>
+<br/>
 
 ### Radix Sort
 
@@ -287,7 +281,7 @@ Count Sort 는 말 그대로 몇 개인지 개수를 세어 정렬하는 방식�
 | :--------------: | :-------------: |
 |       O(n)       |      O(n)       |
 
-</br>
+<br/>
 
 #### Sorting Algorithm's Complexity 정리
 
@@ -306,9 +300,7 @@ Count Sort 는 말 그대로 몇 개인지 개수를 세어 정렬하는 방식�
 
 * [Sorting Algorithm 을 비판적으로 바라보자](http://asfirstalways.tistory.com/338)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#algorithm)
-
-</br>
+<br/>
 
 ## Prime Number Algorithm
 
@@ -316,9 +308,9 @@ Count Sort 는 말 그대로 몇 개인지 개수를 세어 정렬하는 방식�
 
 ### 에라토스테네스의 체 [Eratosthenes’ sieve]
 
-`에라토스테네스의 체(Eratosthenes’ sieve)`는, 임의의 자연수에 대하여, 그 자연수 이하의 `소수(prime number)`를 모두 찾아 주는 방법이다. 입자의 크기가 서로 다른 가루들을 섞어 체에 거르면 특정 크기 이하의 가루들은 다 아래로 떨어지고, 그 이상의 것들만 체 위에 남는 것처럼, 에라토스테네스의 체를 사용하면 특정 자연수 이하의 합성수는 다 지워지고 소수들만 남는 것이다. 방법은 간단하다. 만일 `100` 이하의 소수를 모두 찾고 싶다면, `1` 부터 `100` 까지의 자연수를 모두 나열한 후, 먼저 소수도 합성수도 아닌 `1`을 지우고, `2`외의 `2`의 배수들을 다 지우고, `3`외의 `3`의 배수들을 다 지우고, `5`외의 `5`의 배수들을 지우는 등의 이 과정을 의 `100`제곱근인 `10`이하의 소수들에 대해서만 반복하면, 이때 남은 수들이 구하고자 하는 소수들이다.</br>
+`에라토스테네스의 체(Eratosthenes’ sieve)`는, 임의의 자연수에 대하여, 그 자연수 이하의 `소수(prime number)`를 모두 찾아 주는 방법이다. 입자의 크기가 서로 다른 가루들을 섞어 체에 거르면 특정 크기 이하의 가루들은 다 아래로 떨어지고, 그 이상의 것들만 체 위에 남는 것처럼, 에라토스테네스의 체를 사용하면 특정 자연수 이하의 합성수는 다 지워지고 소수들만 남는 것이다. 방법은 간단하다. 만일 `100` 이하의 소수를 모두 찾고 싶다면, `1` 부터 `100` 까지의 자연수를 모두 나열한 후, 먼저 소수도 합성수도 아닌 `1`을 지우고, `2`외의 `2`의 배수들을 다 지우고, `3`외의 `3`의 배수들을 다 지우고, `5`외의 `5`의 배수들을 지우는 등의 이 과정을 의 `100`제곱근인 `10`이하의 소수들에 대해서만 반복하면, 이때 남은 수들이 구하고자 하는 소수들이다.<br/>
 
-에라토스테네스의 체를 이용하여 50 까지의 소수를 구하는 순서를 그림으로 표현하면 다음과 같다.</br>
+에라토스테네스의 체를 이용하여 50 까지의 소수를 구하는 순서를 그림으로 표현하면 다음과 같다.<br/>
 
 1.  초기 상태
 
@@ -380,37 +372,10 @@ Count Sort 는 말 그대로 몇 개인지 개수를 세어 정렬하는 방식�
 
 #### [code](https://github.com/alstn2468/BaekJoon_Online_Judge/blob/master/1900~1999/1929.c)
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#algorithm)
-
-</br>
+<br/>
 
 #### Time Complexity
 
 O(1) < O(log N) < O(N) < O(N log N) < O(N^2) < O(N^3)
 O(2^N) : 크기가 N 인 집합의 부분 집합
 O(N!) : 크기가 N 인 순열
-
-#### 알고리즘 문제 연습 사이트
-
-* https://algospot.com/
-* https://codeforces.com
-* http://topcoder.com
-* https://www.acmicpc.net/
-* https://leetcode.com/problemset/algorithms/
-* https://programmers.co.kr/learn/challenges
-* https://www.hackerrank.com
-* http://codingdojang.com/
-* http://codeup.kr/JudgeOnline/index.php
-* http://euler.synap.co.kr/
-* http://koistudy.net
-* https://www.codewars.com
-* https://app.codility.com/programmers/
-* http://euler.synap.co.kr/
-
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#algorithm)
-
-</br>
-
-</br>
-
-_Algorithm.end_

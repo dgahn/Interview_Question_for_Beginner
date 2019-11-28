@@ -223,9 +223,3 @@ _우리가 Chrome 을 실행시켜 주소창에 특정 URL 값을 입력시키�
 * (도서) [그림으로 배우는 Http&Network basic](http://www.yes24.com/24/Goods/15894097?Acode=101)
 * (도서) [HTTP 완벽 가이드](http://www.yes24.com/24/Goods/15381085?Acode=101)
 * Socket programming (Multi-chatting program)
-
-<br/>
-
-<br/>
-
-_Network.end_

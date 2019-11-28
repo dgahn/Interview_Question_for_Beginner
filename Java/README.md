@@ -172,10 +172,3 @@ _ThreadLocal 을 사용하는 방법은 간단하다._
 
 * (도서) [Effective Java 2nd Edition](http://www.yes24.com/24/goods/14283616?scode=032&OzSrank=9)
 * (도서) [스프링 입문을 위한 자바 객체 지향의 원리와 이해](http://www.yes24.com/24/Goods/17350624?Acode=101)
-
-
-<br/>
-
-<br/>
-
-_Java.end_
