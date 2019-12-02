@@ -367,5 +367,46 @@ BFS보다 좀 더 간단하고 단순 검색 속도 자체는 BFS에 비해서 �
 
 조건에 따라 생성하는 객체의 타입이 다른 경우 팩토리 클래스에 객체의 생성을 위임하여
 팩토리가 객체를 생성하게 하는 패턴을 말한다. 템플릿 메소드 패턴의 응용으로
-객체간의 결합도가 낮아지고 유지보수가 용이해진다. 결합도가 낮아진다는 것은 클래스의 변경점이 생겼을 때
+객체간의 결합도가 낮아집니다. 결합도가 낮아진다는 것은 클래스의 변경점이 생겼을 때
 다른 클래스에 얼마나 영향을 주는가이다.
+
+## RESTful API (Representational State Transfer)
+
+HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, 
+HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation을 
+지원하는 것을 의미한다.
+
+### REST 6 가지 특징
+
+* Uniform Interface (인터페이스 일관성, 특정 언어나 기술에 종속되지 않는다.)
+* Stateless (무상태성, 각각의 요청은 독립적이다.)
+* Caching (캐싱, 웹 표준 HTTP 프로토콜의 캐싱 기능을 그대로 사용할 수 있다.)
+* Client-Server (자원이 있는 쪽을 Server, 자원을 요청하는 쪽을 Client로 사용하는 구조다.)
+* Layered system (계층적 구조, 중간에 게이트를 둘 수 있다.)
+* Code on demand (optional, Server로부터 Script를 받아서 실행될 수 있다.)
+
+### RESTful 하게 API 를 디자인 한다는 것은 무엇을 의미하는가.(요약)
+
+1.  **리소스** 와 **행위** 를 명시적이고 직관적으로 분리한다.
+
+* 리소스는 `URI`로 표현되는데 리소스가 가리키는 것은 `명사`로 표현되어야 한다.
+* 행위는 `HTTP Method`로 표현하고, `GET(조회)`, `POST(생성)`, `PUT(기존 entity 전체 수정)`, `PATCH(기존 entity 일부 수정)`, `DELETE(삭제)`을 분명한 목적으로 사용한다.
+
+2.  Message 는 Header 와 Body 를 명확하게 분리해서 사용한다.
+
+* Entity 에 대한 내용은 body 에 담는다.
+* 애플리케이션 서버가 행동할 판단의 근거가 되는 컨트롤 정보인 API 버전 정보, 응답받고자 하는 MIME 타입 등은 header 에 담는다.
+* header 와 body 는 http header 와 http body 로 나눌 수도 있고, http body 에 들어가는 json 구조로 분리할 수도 있다.
+
+### 어떠한 장점이 존재하는가?
+
+1.  Open API 를 제공하기 쉽다
+2.  멀티플랫폼 지원 및 연동이 용이하다.
+3.  원하는 타입으로 데이터를 주고 받을 수 있다.
+4.  기존 웹 인프라(HTTP)를 그대로 사용할 수 있다.
+
+### 단점은 뭐가 있을까?
+
+1.  사용할 수 있는 메소드가 4 가지 밖에 없다.
+2.  분산환경에는 부적합하다.
+3.  HTTP 통신 모델에 대해서만 지원한다.
